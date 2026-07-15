@@ -1,1 +1,42 @@
-Hello9
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مدیریت جاب‌ها</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>مدیریت جاب‌ها</h2>
+
+<input id="search" placeholder="جستجو...">
+
+<br><br>
+
+<button onclick="addJob()">ثبت جاب جدید</button>
+
+<table border="1" width="100%" id="table">
+<thead>
+<tr>
+<th>شماره جاب</th>
+<th>معرف</th>
+<th>نوع خدمت</th>
+<th>هزینه</th>
+<th>کنترل فاکتور</th>
+<th>وضعیت</th>
+<th>توضیحات</th>
+<th>عملیات</th>
+</tr>
+</thead>
+
+<tbody id="jobs"></tbody>
+
+</table>
+
+<script src="app.js"></script>
+
+</body>
+</html>
